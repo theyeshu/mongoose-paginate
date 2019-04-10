@@ -1,10 +1,10 @@
 {
-  "name": "mongoose-paginate",
+  "name": "mongoose-paginate-fix",
   "description": "Pagination plugin for Mongoose",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "author": {
-    "name": "Edward Hotchkiss",
-    "email": "edward@edwardhotchkiss.com"
+    "name": "Yeshu Kochher",
+    "email": "yeshu@outlook.in"
   },
   "contributors": [
     {
@@ -18,11 +18,15 @@
     {
       "name": "Dmitry Kirilyuk",
       "email": "gk.joker@gmail.com"
+    },
+    {
+      "name": "Yeshu Kochher",
+      "email": "yeshu@outlook.in"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/edwardhotchkiss/mongoose-paginate.git"
+    "url": "https://github.com/theyeshu/mongoose-paginate.git"
   },
   "license": "MIT",
   "keywords": [
@@ -37,7 +41,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mongoose": "4.3.4",
+    "mongoose": "5.5.0",
     "mocha": "2.3.4",
     "chai": "3.4.1"
   },
