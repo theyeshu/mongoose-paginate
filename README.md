@@ -3,7 +3,7 @@
 
 > Pagination plugin for [Mongoose](http://mongoosejs.com)
 
-**Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 4.2
+**Note:** This plugin forked from [mongoose-paginate](https://www.npmjs.com/package/mongoose-paginate) just because it was not updated from last three years and contain only one small fix. Which is deprecated function warning.
 
 =======
 
