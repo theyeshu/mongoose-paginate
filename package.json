@@ -1,7 +1,7 @@
 {
   "name": "mongoose-paginate-fix",
   "description": "Pagination plugin for Mongoose",
-  "version": "5.0.5",
+  "version": "5.1.0",
   "author": {
     "name": "Yeshu Kochher",
     "email": "yeshu@outlook.in"
@@ -39,11 +39,14 @@
   "engines": {
     "node": ">=4.2.4"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "3.0.5"
+  },
   "devDependencies": {
     "mongoose": "5.4.6",
     "mocha": "2.3.4",
-    "chai": "3.4.1"
+    "chai": "3.4.1",
+    "chai-as-promised": "5.1.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*.js -R spec --ui bdd --timeout 5000"
