@@ -1,7 +1,7 @@
 {
   "name": "mongoose-paginate-fix",
   "description": "Pagination plugin for Mongoose",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "author": {
     "name": "Yeshu Kochher",
     "email": "yeshu@outlook.in"
